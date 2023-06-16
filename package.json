@@ -1,0 +1,14 @@
+{
+  "name": "golangci-lint",
+  "version": "0.0.1",
+  "description": "",
+  "main": "golangci-lint-helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "golintci-helper": "./golangci-lint-helper.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
