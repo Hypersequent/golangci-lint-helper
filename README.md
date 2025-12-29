@@ -1,6 +1,3 @@
-This npm package provides binary golangci-lint-helper which can be used with
-[lint-staged](https://github.com/okonet/lint-staged) to lint staged Go files.
+# ⚠️ DEPRECATED
 
-[golangci-lint](https://golangci-lint.run/) expects to have package names as arguments, 
-but lint-staged provides file names. This package converts file names to package names and
-passes them to golangci-lint.
+This package helped with formatting individual files with `golangci-lint`. Starting version 2, `golangci-lint` supports doing so natively. See [the documentation](https://golangci-lint.run/docs/welcome/quick-start/#formatting) for more details.
